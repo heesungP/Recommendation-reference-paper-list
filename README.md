@@ -1,9 +1,10 @@
 # recommendation-reference-paper-list
 
 ## Collaborative Filtering Based Model
-|Title|Location|Structure|Dataset|Baseline|Metric|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|Atentive Collaborative Filtering: Multimedia Recommendation with Item- and Component-Level Attention **(ACF)**</br>[[paper]][1]|2017 ACM|![image](https://user-images.githubusercontent.com/67678405/120065206-1178c480-c0ab-11eb-8357-2097d3b3ff5c.png)|Pinterest</br>Vine|**[CF-based]**</br>UCF</br>itemKNN</br>BPR</br>SVD++</br>**[Content-based]**</br>CBF</br>**[Hybrid]**</br>SVDFeature</br>Deep Hybrid|HR</br>NDCG
+|Title|Structure|Dataset|Baseline|Metric|
+|:---:|:---:|:---:|:---:|:---:|
+|Atentive Collaborative Filtering: Multimedia Recommendation with Item- and Component-Level Attention **(ACF)**</br> [2017 ACM] </br>[[paper]][1]|![image](https://user-images.githubusercontent.com/67678405/120065206-1178c480-c0ab-11eb-8357-2097d3b3ff5c.png)|Pinterest</br>Vine|**[CF-based]**</br>UCF</br>itemKNN</br>BPR</br>SVD++</br>**[Content-based]**</br>CBF</br>**[Hybrid]**</br>SVDFeature</br>Deep Hybrid|HR</br>NDCG</br>(leave-one-out)</br>(K=10~100)|
+|Deep Matrix Factorization Models for Recommender Systems **(DMF)** </br> [2017 IJCAI] </br> [[paper]][2]|![image](https://user-images.githubusercontent.com/67678405/121487195-d19bd080-ca0c-11eb-81b0-9f6fcbe6bf0b.png)|ML 100K</br>ML 1m</br>Amusic</br>Amovie|itemPOP</br>itemKNN</br>eALS</br>NeuMF-p|HR</br>NDCG</br>(leave-one-out)</br>(K=10)|
 
 
 ## Factorization Machine Based Model
@@ -17,3 +18,4 @@
 
 
 [1]:https://dl.acm.org/doi/abs/10.1145/3077136.3080797
+[2]:https://www.ijcai.org/Proceedings/2017/0447.pdf
