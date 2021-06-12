@@ -3,9 +3,11 @@
 ## Collaborative Filtering Based Model
 |Title|Structure|Dataset|Baseline|Metric|
 |:---:|:---:|:---:|:---:|:---:|
-|Atentive Collaborative Filtering: Multimedia Recommendation with Item- and Component-Level Attention </br> **(ACF)**</br> [2017 ACM] </br>[[paper]][1]|![image](https://user-images.githubusercontent.com/67678405/120065206-1178c480-c0ab-11eb-8357-2097d3b3ff5c.png)|Pinterest</br>Vine|**[CF-based]**</br>UCF</br>itemKNN</br>BPR</br>SVD++</br>**[Content-based]**</br>CBF</br>**[Hybrid]**</br>SVDFeature</br>Deep Hybrid|HR</br>NDCG</br>(leave-one-out)</br>(K=10~100)|
-|Deep Matrix Factorization Models for Recommender Systems </br> **(DMF)** </br> [2017 IJCAI] </br> [[paper]][2]|![image](https://user-images.githubusercontent.com/67678405/121487195-d19bd080-ca0c-11eb-81b0-9f6fcbe6bf0b.png)|ML 100K</br>ML 1m</br>Amusic</br>Amovie|itemPOP</br>itemKNN</br>eALS</br>NeuMF-p|HR</br>NDCG</br>(leave-one-out)</br>(K=10)|
-|Neural Collaborative Filtering </br> **(NeuMF)** </br> [2017 ACM] </br> [[paper]][3] |![image](https://user-images.githubusercontent.com/67678405/121765576-d5ebf900-cb86-11eb-8c77-59cb37adf873.png)|ML 1m</br>Pinterest|itemPOP</br>itemKNN</br>BPR</br>eALS|HR</br>NDCG</br>(leave-one-out)</br>(K=1~10)|
+|Atentive Collaborative Filtering: Multimedia Recommendation with Item- and Component-Level Attention </br> **(ACF)**</br> [2017 ACM] </br>[[paper]][1]|![image](https://user-images.githubusercontent.com/67678405/120065206-1178c480-c0ab-11eb-8357-2097d3b3ff5c.png)|Pinterest</br>Vine|**[CF-based]**</br>UCF</br>itemKNN</br>BPR</br>SVD++</br>**[Content-based]**</br>CBF</br>**[Hybrid]**</br>SVDFeature</br>Deep Hybrid|HR</br>NDCG</br>(L-o-o\*)</br>(K=10~100)|
+|Deep Matrix Factorization Models for Recommender Systems </br> **(DMF)** </br> [2017 IJCAI] </br> [[paper]][2]|![image](https://user-images.githubusercontent.com/67678405/121487195-d19bd080-ca0c-11eb-81b0-9f6fcbe6bf0b.png)|ML 100K</br>ML 1m</br>Amusic</br>Amovie|itemPOP</br>itemKNN</br>eALS</br>NeuMF-p|HR</br>NDCG</br>(L-o-o\*)</br>(K=10)|
+|Neural Collaborative Filtering </br> **(NeuMF)** </br> [2017 ACM] </br> [[paper]][3] |![image](https://user-images.githubusercontent.com/67678405/121765576-d5ebf900-cb86-11eb-8c77-59cb37adf873.png)|ML 1m</br>Pinterest|itemPOP</br>itemKNN</br>BPR</br>eALS|HR</br>NDCG</br>(L-o-o\*)</br>(K=1~10)|
+
+\* L-o-o : Leave-one-Out
 
 ## Factorization Machine Based Model
 
