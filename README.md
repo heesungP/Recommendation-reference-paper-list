@@ -6,6 +6,7 @@
 |Atentive Collaborative Filtering: Multimedia Recommendation with Item- and Component-Level Attention </br> **(ACF)**</br> [2017 ACM] </br>[[paper]][1]|![image](https://user-images.githubusercontent.com/67678405/120065206-1178c480-c0ab-11eb-8357-2097d3b3ff5c.png)|Pinterest</br>Vine|**[CF-based]**</br>UCF</br>itemKNN</br>BPR</br>SVD++</br>**[Content-based]**</br>CBF</br>**[Hybrid]**</br>SVDFeature</br>Deep Hybrid|HR</br>NDCG</br>(L-o-o\*)</br>(K=10~100)|
 |Deep Matrix Factorization Models for Recommender Systems </br> **(DMF)** </br> [2017 IJCAI] </br> [[paper]][2]|![image](https://user-images.githubusercontent.com/67678405/121487195-d19bd080-ca0c-11eb-81b0-9f6fcbe6bf0b.png)|ML 100K</br>ML 1m</br>Amusic</br>Amovie|itemPOP</br>itemKNN</br>eALS</br>NeuMF-p|HR</br>NDCG</br>(L-o-o\*)</br>(K=10)|
 |Neural Collaborative Filtering </br> **(NeuMF)** </br> [2017 ACM] </br> [[paper]][3] |![image](https://user-images.githubusercontent.com/67678405/121765576-d5ebf900-cb86-11eb-8c77-59cb37adf873.png)|ML 1m</br>Pinterest|itemPOP</br>itemKNN</br>BPR</br>eALS|HR</br>NDCG</br>(L-o-o\*)</br>(K=1~10)|
+|NAIS: Neural Attentive Item Similarity Model for Recommendation</br>**(NAIS)**</br>[2018 IEEE]</br>[[paper]][4]|![image](https://user-images.githubusercontent.com/67678405/121794784-22e2d480-cc46-11eb-9d56-4e46e7c9bde9.png)|ML 1m</br>Pinterest</br>(same set as NCF)|itemPOP</br>itemKNN</br>FISM</br>MF-BPR</br>MF-eALS</br>MLP|HR</br>NDCG</br>(L-o-o\*)</br>(K=10)</br>(emb=8,16,32,64)|
 
 \* L-o-o : Leave-one-Out
 
@@ -22,3 +23,4 @@
 [1]:https://dl.acm.org/doi/abs/10.1145/3077136.3080797
 [2]:https://www.ijcai.org/Proceedings/2017/0447.pdf
 [3]:https://dl.acm.org/doi/abs/10.1145/3038912.3052569
+[4]:https://ieeexplore.ieee.org/abstract/document/8352808?casa_token=QCrRbXoN_JIAAAAA:OjexoCw7_DOsLmnjQ-5iDJ85cUOIEYlBsoEOtwsbjZy9Wh41gIds6gTDA9u9oyOME8-5TUVlSbg
