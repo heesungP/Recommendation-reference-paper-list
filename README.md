@@ -8,6 +8,8 @@
 |Neural Collaborative Filtering </br> **(NeuMF)** </br> [2017 WWW\*\*] </br> [[paper]][3] |![image](https://user-images.githubusercontent.com/67678405/121765576-d5ebf900-cb86-11eb-8c77-59cb37adf873.png)|ML 1m</br>Pinterest|itemPOP</br>itemKNN</br>BPR</br>eALS|HR</br>NDCG</br>(L-O-O\*)</br>(K=1~10)</br>(dim=8,16,32,64)|
 |A Neural Collaborative Filtering Model with Interaction-based Neighborhood</br>**(NNCF)**</br>[2017 CIKM(ACM)\*\*]</br>[[paper]][4]|![image](https://user-images.githubusercontent.com/67678405/121795239-def1ce80-cc49-11eb-95ac-c415624f21cd.png)|Delicious</br>ML 1m</br>Rossmann|itemPOP</br>itemKNN</br>BPR</br>NeuMF|HR</br>NDCG</br>(L-O-O\*)</br>(K=5,10)</br>(dim=32)|
 |NAIS: Neural Attentive Item Similarity Model for Recommendation</br>**(NAIS)**</br>[2018 IEEE]</br>[[paper]][5]|![image](https://user-images.githubusercontent.com/67678405/121794784-22e2d480-cc46-11eb-9d56-4e46e7c9bde9.png)|ML 1m</br>Pinterest</br>(same set as NCF)|itemPOP</br>itemKNN</br>FISM</br>MF-BPR</br>MF-eALS</br>MLP|HR</br>NDCG</br>(L-O-O\*)</br>(K=10)</br>(dim=8,16,32,64)|
+|Deep Item-based Collaborative Filtering for Top-N Recommendation </br> **(DeepICF)**</br>[2019 ACM]</br>[[paper]][6]|![image](https://user-images.githubusercontent.com/67678405/121867715-36bc3280-cd3b-11eb-9f8d-e96b24aaaebd.png)|ML 1m</br>Pinterest|itemPOP</br>itemKNN</br>HOSLIM</br>BPR</br>eALS</br>MLP</br>FISM|HR</br>NDCG</br>(L-O-O\*)</br>(K=10)</br>(dim=8,16,32,64)|
+
 
 \* L-O-O : Leave-one-Out
 
@@ -28,3 +30,4 @@
 [3]:https://dl.acm.org/doi/abs/10.1145/3038912.3052569
 [4]:https://dl.acm.org/doi/abs/10.1145/3132847.3133083
 [5]:https://ieeexplore.ieee.org/abstract/document/8352808
+[6]:https://dl.acm.org/doi/abs/10.1145/3314578
