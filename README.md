@@ -11,6 +11,8 @@
 |Outer Product-based Neural Collaborative Filtering</br>**(ConvNCF)**</br>[2018 arXiv]</br>[[paper]][6]|![image](https://user-images.githubusercontent.com/67678405/121985122-18077b80-cdcf-11eb-9973-ed2e81e65be9.png)|Yelp</br>Gowalla|itemPOP</br>MF-BPR</br>MLP</br>JRL</br>NeuMF|HR</br>NDCG</br>(L-O-O-1000)</br>(K=10)</br>(dim=64)|
 |Deep Item-based Collaborative Filtering for Top-N Recommendation </br> **(DeepICF)**</br>[2019 ACM]</br>[[paper]][7]|![image](https://user-images.githubusercontent.com/67678405/121867715-36bc3280-cd3b-11eb-9f8d-e96b24aaaebd.png)|ML 1m</br>Pinterest|itemPOP</br>itemKNN</br>HOSLIM</br>BPR</br>eALS</br>MLP</br>FISM|HR</br>NDCG</br>(L-O-O\*)</br>(K=10)</br>(dim=8,16,32,64)|
 |Matching User with Item Set: Collaborative Bundle Recommendation with Deep Attention Network</br>**(DAM)**</br>[2019 IJCAI]</br>[[paper]][8]|![image](https://user-images.githubusercontent.com/67678405/122144133-cd990400-ce8d-11eb-9799-444ea40708f2.png)|Netease</br>Youshu|BPR</br>NCF</br>BR</br>EFM|</br>Recall</br>MAP</br>(L-O-O\*)</br>(K=5)</br>(dim=5,10)|
+|Neural Graph Collaborative Filtering</br> **(NGCF)**</br> [2019 SIGIR(ACM)\*\*] </br>[[paper]][9]|![image](https://user-images.githubusercontent.com/67678405/122313880-013d6200-cf52-11eb-8417-7cf993f5f4ff.png)|Gowalla</br>Yelp2018</br>Amazon-Book|MF</br>NeuMF</br>CMN</br>HOP-Rec</br>PinSage</br>GC-MC|Recall</br>NDCG</br>(tt-split, 8:2)</br>(K=20)|
+
 
 \* L-O-O : Leave-one-Out
 
@@ -34,3 +36,4 @@
 [6]:https://arxiv.org/abs/1808.03912
 [7]:https://dl.acm.org/doi/abs/10.1145/3314578
 [8]:https://www.ijcai.org/Proceedings/2019/0290.pdf
+[9]:https://dl.acm.org/doi/abs/10.1145/3331184.3331267
