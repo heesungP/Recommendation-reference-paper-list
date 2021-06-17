@@ -14,7 +14,7 @@
 |Neural Graph Collaborative Filtering</br> **(NGCF)**</br> [2019 SIGIR(ACM)\*\*] </br>[[paper]][9]|![image](https://user-images.githubusercontent.com/67678405/122313880-013d6200-cf52-11eb-8417-7cf993f5f4ff.png)|Gowalla</br>Yelp2018</br>Amazon-Book|MF</br>NeuMF</br>CMN</br>HOP-Rec</br>PinSage</br>GC-MC|Recall</br>NDCG</br>(tt-split, 8:2)</br>(K=20)|
 
 
-\* L-O-O : Leave-one-Out
+\* : L-O-O : Leave-one-Out
 
 \*\* : Conference Proceedings Paper
 
