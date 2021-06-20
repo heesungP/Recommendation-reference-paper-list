@@ -10,10 +10,10 @@
 |NAIS: Neural Attentive Item Similarity Model for Recommendation</br>**(NAIS)**</br>[2018 IEEE]</br>[[paper]][5]|![image](https://user-images.githubusercontent.com/67678405/121794784-22e2d480-cc46-11eb-9d56-4e46e7c9bde9.png)|ML 1m</br>Pinterest</br>(same set as NCF)|itemPOP</br>itemKNN</br>FISM</br>MF-BPR</br>MF-eALS</br>MLP|HR</br>NDCG</br>(L-O-O\*)</br>(K=10)</br>(dim=8,16,32,64)|
 |Outer Product-based Neural Collaborative Filtering</br>**(ConvNCF)**</br>[2018 arXiv]</br>[[paper]][6]|![image](https://user-images.githubusercontent.com/67678405/121985122-18077b80-cdcf-11eb-9973-ed2e81e65be9.png)|Yelp</br>Gowalla|itemPOP</br>MF-BPR</br>MLP</br>JRL</br>NeuMF|HR</br>NDCG</br>(L-O-O-1000)</br>(K=10)</br>(dim=64)|
 |Deep Item-based Collaborative Filtering for Top-N Recommendation </br> **(DeepICF)**</br>[2019 ACM]</br>[[paper]][7]|![image](https://user-images.githubusercontent.com/67678405/121867715-36bc3280-cd3b-11eb-9f8d-e96b24aaaebd.png)|ML 1m</br>Pinterest|itemPOP</br>itemKNN</br>HOSLIM</br>BPR</br>eALS</br>MLP</br>FISM|HR</br>NDCG</br>(L-O-O\*)</br>(K=10)</br>(dim=8,16,32,64)|
-|Matching User with Item Set: Collaborative Bundle Recommendation with Deep Attention Network</br>**(DAM)**</br>[2019 IJCAI]</br>[[paper]][8]|![image](https://user-images.githubusercontent.com/67678405/122144133-cd990400-ce8d-11eb-9799-444ea40708f2.png)|Netease</br>Youshu|BPR</br>NCF</br>BR</br>EFM|</br>Recall</br>MAP</br>(L-O-O\*)</br>(K=5)</br>(dim=5,10)|
+|Matching User with Item Set: Collaborative Bundle Recommendation with Deep Attention Network</br>**(DAM)**</br>[2019 IJCAI\*\*]</br>[[paper]][8]|![image](https://user-images.githubusercontent.com/67678405/122144133-cd990400-ce8d-11eb-9799-444ea40708f2.png)|Netease</br>Youshu|BPR</br>NCF</br>BR</br>EFM|</br>Recall</br>MAP</br>(L-O-O\*)</br>(K=5)</br>(dim=5,10)|
 |Neural Graph Collaborative Filtering</br> **(NGCF)**</br> [2019 SIGIR(ACM)\*\*] </br>[[paper]][9]|![image](https://user-images.githubusercontent.com/67678405/122313880-013d6200-cf52-11eb-8417-7cf993f5f4ff.png)|Gowalla</br>Yelp2018</br>Amazon-Book|MF</br>NeuMF</br>CMN</br>HOP-Rec</br>PinSage</br>GC-MC|Recall</br>NDCG</br>(tt-split, 8:2)</br>(K=20)|
 |Reinforced Negative Sampling for Recommendation with Exposure Data</br>**(RNS)**</br>[2019 IJCAI\*\*]</br>[[paper]][10]|![image](https://user-images.githubusercontent.com/67678405/122630344-d4c64900-d0fd-11eb-8f4c-8b3a10d6661c.png)|Beibei</br>Zhihu|[common]</br>itemPOP</br>BPR-GMF</br>[adversarial sampler]</br>BPR-DNS</br>KBGAN</br>IRGAN</br>[exposure-enhanced samplers]</br>BPE-EN</br>EBPR|AUC</br>NDCG</br>(L-O-O\*)</br>(K=10)</br>(dim=32)|
-
+|Efficient Neural Matrix Factorization without Sampling for Recommendation</br>**(ENMF)**</br>[2020 ACM]</br>[[paper]][11]|![image](https://user-images.githubusercontent.com/67678405/122664764-4fff2c00-d1de-11eb-8523-0065eee54f8b.png)|Ciao</br>Epinion</br>ML 1m|itemPOP</br>itemKNN</br>BPR</br>WMF</br>ExpoMF</br>GMF</br>NCF</br>ConvNCF|HR</br>NDCG</br>(L-O-O-all)</br>(K=50,100,200)</br>(dim=8,16,32,64)|
 
 
 \* : L-O-O : Leave-one-Out
@@ -40,3 +40,4 @@
 [8]:https://www.ijcai.org/Proceedings/2019/0290.pdf
 [9]:https://dl.acm.org/doi/abs/10.1145/3331184.3331267
 [10]:https://www.ijcai.org/Proceedings/2019/0309.pdf
+[11]:https://dl.acm.org/doi/abs/10.1145/3373807
