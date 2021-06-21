@@ -25,7 +25,9 @@
 |Title|Structure|Dataset|Baseline|Metric|
 |:---:|:---:|:---:|:---:|:---:|
 |Deep Learning over Multi-field Categorical Data</br>**(FNN,SNN)**</br>[2016 ECIR\*\*]</br>[[paper]][12]|![image](https://user-images.githubusercontent.com/67678405/122694402-2d215600-d278-11eb-84dd-8aa10bdbc57d.png)|iPinYou|LR</br>FM</br>FNN(ours)</br>SNN(ours)|AUC-ROC|
-
+|Deep Crossing: Web-Scale Modeling without Manually Crafted Combinatorial Features</br>**(DC)**</br>[2016 KDD\*\*]</br>[[paper]][13]|![image](https://user-images.githubusercontent.com/67678405/122695222-c2254e80-d27a-11eb-93c6-d689f11ac906.png)||||
+|Wide & Deep Learning for Recommender Systems</br>**(W&D)**</br>[2016 DLRS\*\*]</br>[[paper]][14]|![image](https://user-images.githubusercontent.com/67678405/122695204-b5085f80-d27a-11eb-9ebc-11a5f1bf4844.png)||||
+|Deep & Cross Network for Ad Click Predictions</br>**(DCN)**</br>[2017 ADKDD\*\*]</br>[[paper]][15]|![image](https://user-images.githubusercontent.com/67678405/122695017-3c090800-d27a-11eb-9df9-9b7b4a75fe5a.png)|Criteo Display Ads2|DNN</br>LR</br>FM</br>W&D</br>DC||
 \* : L-O-O : Leave-one-Out
 
 \*\* : Conference Proceedings Paper
@@ -48,3 +50,6 @@
 [10]:https://www.ijcai.org/Proceedings/2019/0309.pdf
 [11]:https://dl.acm.org/doi/abs/10.1145/3373807
 [12]:https://link.springer.com/chapter/10.1007/978-3-319-30671-1_4
+[13]:https://dl.acm.org/doi/abs/10.1145/2939672.2939704
+[14]:https://dl.acm.org/doi/abs/10.1145/2988450.2988454
+[15]:https://dl.acm.org/doi/abs/10.1145/3124749.3124754
