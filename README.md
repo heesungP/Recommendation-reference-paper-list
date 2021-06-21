@@ -22,7 +22,13 @@
 
 ## Factorization Machine Based Model
 
+|Title|Structure|Dataset|Baseline|Metric|
+|:---:|:---:|:---:|:---:|:---:|
+|Deep Learning over Multi-field Categorical Data</br>**(FNN,SNN)**</br>[2016 ECIR\*\*]</br>[[paper]][12]|![image](https://user-images.githubusercontent.com/67678405/122694402-2d215600-d278-11eb-84dd-8aa10bdbc57d.png)|iPinYou|LR</br>FM</br>FNN(ours)</br>SNN(ours)|AUC-ROC|
 
+\* : L-O-O : Leave-one-Out
+
+\*\* : Conference Proceedings Paper
 ## Graph Convolution Based Model
 
 
@@ -41,3 +47,4 @@
 [9]:https://dl.acm.org/doi/abs/10.1145/3331184.3331267
 [10]:https://www.ijcai.org/Proceedings/2019/0309.pdf
 [11]:https://dl.acm.org/doi/abs/10.1145/3373807
+[12]:https://link.springer.com/chapter/10.1007/978-3-319-30671-1_4
