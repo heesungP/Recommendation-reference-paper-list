@@ -27,7 +27,10 @@
 |Deep Learning over Multi-field Categorical Data</br>**(FNN,SNN)**</br>[2016 ECIR\*\*]</br>[[paper]][12]|![image](https://user-images.githubusercontent.com/67678405/122694402-2d215600-d278-11eb-84dd-8aa10bdbc57d.png)|iPinYou|LR</br>FM</br>FNN(ours)</br>SNN(ours)|AUC-ROC|
 |Deep Crossing: Web-Scale Modeling without Manually Crafted Combinatorial Features</br>**(DC)**</br>[2016 KDD\*\*]</br>[[paper]][13]|![image](https://user-images.githubusercontent.com/67678405/122695222-c2254e80-d27a-11eb-93c6-d689f11ac906.png)|text_cp1_tn_s</br>text_cp1_tn_b|DSSM|logloss|
 |Wide & Deep Learning for Recommender Systems</br>**(W&D)**</br>[2016 DLRS\*\*]</br>[[paper]][14]|![image](https://user-images.githubusercontent.com/67678405/122695204-b5085f80-d27a-11eb-9ebc-11a5f1bf4844.png)|-|wide</br>deep</br>wide&deep|offline AUC|
-|Deep & Cross Network for Ad Click Predictions</br>**(DCN)**</br>[2017 ADKDD\*\*]</br>[[paper]][15]|![image](https://user-images.githubusercontent.com/67678405/122695017-3c090800-d27a-11eb-9df9-9b7b4a75fe5a.png)|Criteo Display Ads2|DNN</br>LR</br>FM</br>W&D</br>DC||
+|Deep & Cross Network for Ad Click Predictions</br>**(DCN)**</br>[2017 ADKDD\*\*]</br>[[paper]][15]|![image](https://user-images.githubusercontent.com/67678405/122695017-3c090800-d27a-11eb-9df9-9b7b4a75fe5a.png)|Criteo Display Ads2|DNN</br>LR</br>FM</br>W&D</br>DC|logloss|
+|Neural Factorization Machines for Sparse Predictive Analytics</br>[2017 SIGIR\*\*]</br>[[paper]][16]|![image](https://user-images.githubusercontent.com/67678405/123054687-0f065200-d440-11eb-978d-2338cf284cbd.png)|Frappe</br>ML-(2017)|LibFM</br>HOFM</br>Wide&Deep</br>DeepCross|RMSE</br>(tt-split, 7:2:1)|
+
+</br>
 \* : L-O-O : Leave-one-Out
 
 \*\* : Conference Proceedings Paper
@@ -53,3 +56,4 @@
 [13]:https://dl.acm.org/doi/abs/10.1145/2939672.2939704
 [14]:https://dl.acm.org/doi/abs/10.1145/2988450.2988454
 [15]:https://dl.acm.org/doi/abs/10.1145/3124749.3124754
+[16]:https://dl.acm.org/doi/abs/10.1145/3077136.3080777
