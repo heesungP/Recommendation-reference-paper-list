@@ -31,6 +31,8 @@
 |Neural Factorization Machines for Sparse Predictive Analytics</br>**(NFM)**</br>[2017 SIGIR\*\*]</br>[[paper]][16]|![image](https://user-images.githubusercontent.com/67678405/123054687-0f065200-d440-11eb-978d-2338cf284cbd.png)|Frappe</br>ML-(2017)|LibFM</br>HOFM</br>Wide&Deep</br>DeepCross|RMSE</br>(tt-split, 7:2:1)|
 |DeepFM: A Factorization-Machine based Neural Network for CTR Prediction</br>**(DeepFM)**</br>[2017 arXiv]</br>[[paper]][17]|![image](https://user-images.githubusercontent.com/67678405/123188753-8804b880-d4d7-11eb-81cc-8bdf6691dc24.png)|Criteo</br>Company*|LR,FM</br>FNN</br>IPNN,OPNN,PNN*</br>LR&DNN</br>FM&DNN|AUC-ROC</br>Logloss|
 |xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems</br>**(xDeepFM)**</br>[2018 SIGKDD\*\*]</br>[[paper]][18]|![image](https://user-images.githubusercontent.com/67678405/123188788-981c9800-d4d7-11eb-9a54-776d67c335b9.png)|Criteo</br>Dianping</br>Bing News|LR,FM</br>DNN,DCN</br>W&D</br>PNN</br>DeepFM|AUC-ROC</br>Logloss|
+|CFM: Convolutional Factorization Machines for Context-Aware Recommendation</br>**(CFM)**</br>[2019 IJCAI]</br>[[paper]][19]|![image](https://user-images.githubusercontent.com/67678405/123367849-aa6d0380-d5b5-11eb-80ee-9dab965b0a4f.png)||||
+|HoAFM: A High-order Attentive Factorization Machine for CTR Prediction</br>**(HoAFM)**</br>[2020 IP&M]</br>[[paper]][20]|![image](https://user-images.githubusercontent.com/67678405/123367916-c375b480-d5b5-11eb-9326-0af646e9f9d9.png)||||
 
 </br>
 \* : L-O-O : Leave-one-Out
@@ -61,3 +63,5 @@
 [16]:https://dl.acm.org/doi/abs/10.1145/3077136.3080777
 [17]:https://dl.acm.org/doi/abs/10.1145/3219819.3220023
 [18]:https://arxiv.org/abs/1703.04247
+[19]:http://staff.ustc.edu.cn/~hexn/papers/ijcai19-cfm.pdf
+[20]:https://www.sciencedirect.com/science/article/pii/S0306457319302389
