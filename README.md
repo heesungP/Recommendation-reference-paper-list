@@ -38,7 +38,17 @@
 \* : L-O-O : Leave-one-Out (100)
 
 \*\* : Conference Proceedings Paper
+
+
 ## Graph Convolution Based Model
+|Title|Structure|Dataset|Baseline|Metric|
+|:---:|:---:|:---:|:---:|:---:|
+|KGAT: Knowledge Graph Attention Network for Recommendation</br>**(KGAT)**</br>[2019 SIGKDD\*\*]</br>[[paper]][21]|![image](https://user-images.githubusercontent.com/67678405/123726485-080d9280-d8cb-11eb-9443-4f0a54c168b8.png)||||
+|Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preferences</br>**(KTUP)**</br>[2019 WWW\*\*]</br>[[paper]][22]|![image](https://user-images.githubusercontent.com/67678405/123726648-528f0f00-d8cb-11eb-9863-97e7feabf865.png)||||
+</br>
+\* : L-O-O : Leave-one-Out (100)
+
+\*\* : Conference Proceedings Paper
 
 
 ## Knowledge Graph Based Model
@@ -65,3 +75,5 @@
 [18]:https://arxiv.org/abs/1703.04247
 [19]:http://staff.ustc.edu.cn/~hexn/papers/ijcai19-cfm.pdf
 [20]:https://www.sciencedirect.com/science/article/pii/S0306457319302389
+[21]:https://dl.acm.org/doi/abs/10.1145/3292500.3330989
+[22]:https://dl.acm.org/doi/abs/10.1145/3308558.3313705
