@@ -35,6 +35,7 @@
 |HoAFM: A High-order Attentive Factorization Machine for CTR Prediction</br>**(HoAFM)**</br>[2020 IP&M]</br>[[paper]][20]|![image](https://user-images.githubusercontent.com/67678405/123367916-c375b480-d5b5-11eb-9326-0af646e9f9d9.png)|Criteo</br>Avazu|GBDT+LR</br>FM</br>W&D</br>NFM</br>CIN</br>xDeepFM|AUC-ROC</br>Logloss</br>(tt-split,8:1:1)|
 
 </br>
+
 \* : L-O-O : Leave-one-Out (100)
 
 \*\* : Conference Proceedings Paper
@@ -45,7 +46,9 @@
 |:---:|:---:|:---:|:---:|:---:|
 |KGAT: Knowledge Graph Attention Network for Recommendation</br>**(KGAT)**</br>[2019 SIGKDD\*\*]</br>[[paper]][21]|![image](https://user-images.githubusercontent.com/67678405/123726485-080d9280-d8cb-11eb-9443-4f0a54c168b8.png)||||
 |Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preferences</br>**(KTUP)**</br>[2019 WWW\*\*]</br>[[paper]][22]|![image](https://user-images.githubusercontent.com/67678405/123726648-528f0f00-d8cb-11eb-9863-97e7feabf865.png)||||
+
 </br>
+
 \* : L-O-O : Leave-one-Out (100)
 
 \*\* : Conference Proceedings Paper
