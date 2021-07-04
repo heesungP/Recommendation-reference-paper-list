@@ -43,6 +43,14 @@
 
 ## Graph Convolution Based Model
 
+|Title|Structure|Dataset|Baseline|Metric|
+|:---:|:---:|:---:|:---:|:---:|
+
+</br>
+
+\* : L-O-O : Leave-one-Out (100)
+
+\*\* : Conference Proceedings Paper
 
 
 ## Knowledge Graph Based Model
