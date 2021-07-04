@@ -42,19 +42,21 @@
 
 
 ## Graph Convolution Based Model
+
+
+
+## Knowledge Graph Based Model
+
 |Title|Structure|Dataset|Baseline|Metric|
 |:---:|:---:|:---:|:---:|:---:|
-|KGAT: Knowledge Graph Attention Network for Recommendation</br>**(KGAT)**</br>[2019 SIGKDD\*\*]</br>[[paper]][21]|![image](https://user-images.githubusercontent.com/67678405/123726485-080d9280-d8cb-11eb-9443-4f0a54c168b8.png)||||
-|Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preferences</br>**(KTUP)**</br>[2019 WWW\*\*]</br>[[paper]][22]|![image](https://user-images.githubusercontent.com/67678405/123726648-528f0f00-d8cb-11eb-9863-97e7feabf865.png)||||
+|KGAT: Knowledge Graph Attention Network for Recommendation</br>**(KGAT)**</br>[2019 SIGKDD\*\*]</br>[[paper]][21]|![image](https://user-images.githubusercontent.com/67678405/123726485-080d9280-d8cb-11eb-9443-4f0a54c168b8.png)|Amazon-book</br>Last-FM</br>Yelp2018|FM</br>NFM</br>CKE</br>CFKG</br>MCRec</br>RippleNet</br>GC-MC|recall</br>NDCG</br>(L-O-O-all)</br>(K=20)</br>(dim=64)|
+|Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preferences</br>**(KTUP)**</br>[2019 WWW\*\*]</br>[[paper]][22]|![image](https://user-images.githubusercontent.com/67678405/123726648-528f0f00-d8cb-11eb-9863-97e7feabf865.png)|ML-1m</br>DBbook2014|CFKG</br>CKE</br>CoFM|Precision</br>Recall</br>F1</br>Hit</br>NDCG</br>(tt-split,7:1:2)</br>(K=10)</br>(dim=100)|
 
 </br>
 
 \* : L-O-O : Leave-one-Out (100)
 
 \*\* : Conference Proceedings Paper
-
-
-## Knowledge Graph Based Model
 
 
 
