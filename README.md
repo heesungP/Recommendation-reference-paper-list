@@ -59,6 +59,10 @@
 |:---:|:---:|:---:|:---:|:---:|
 |KGAT: Knowledge Graph Attention Network for Recommendation</br>**(KGAT)**</br>[2019 SIGKDD\*\*]</br>[[paper]][21]|![image](https://user-images.githubusercontent.com/67678405/123726485-080d9280-d8cb-11eb-9443-4f0a54c168b8.png)|Amazon-book</br>Last-FM</br>Yelp2018|FM</br>NFM</br>CKE</br>CFKG</br>MCRec</br>RippleNet</br>GC-MC|recall</br>NDCG</br>(L-O-O-all)</br>(K=20)</br>(dim=64)|
 |Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preferences</br>**(KTUP)**</br>[2019 WWW\*\*]</br>[[paper]][22]|![image](https://user-images.githubusercontent.com/67678405/123726648-528f0f00-d8cb-11eb-9863-97e7feabf865.png)|ML-1m</br>DBbook2014|CFKG</br>CKE</br>CoFM|Precision</br>Recall</br>F1</br>Hit</br>NDCG</br>(tt-split,7:1:2)</br>(K=10)</br>(dim=100)|
+|Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems</br>**(KGNN)**</br>[2019 SIGKDD\*\*]</br>[[paper]][23]|![image](https://user-images.githubusercontent.com/67678405/124431458-562f0400-ddab-11eb-949e-360881b2bbe7.png)||||
+|Knowledge Graph Convolutional Networks for Recommender Systems</br>**(KGCN)**</br>[2019 WWW]</br>[[paper]][24]|![image](https://user-images.githubusercontent.com/67678405/124431678-a017ea00-ddab-11eb-8e9a-75a81b2f369a.png)||||
+
+
 
 </br>
 
@@ -90,3 +94,5 @@
 [20]:https://www.sciencedirect.com/science/article/pii/S0306457319302389
 [21]:https://dl.acm.org/doi/abs/10.1145/3292500.3330989
 [22]:https://dl.acm.org/doi/abs/10.1145/3308558.3313705
+[23]:https://dl.acm.org/doi/abs/10.1145/3292500.3330836
+[24]:https://openreview.net/forum?id=r1VD_GZuWr
